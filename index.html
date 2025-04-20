@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de QRCODE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="main">
+            <form action="" method="get" autocomplete="off">
+                <fieldset>
+                    <h3>Gerador de QRCode</h3>
+                    <input id="input" type="text" placeholder="Escreva aqui" required>
+                    <button id="btnBuscar"type="button" onclick="chamarAPI(event)">Gerar</button>
+                </fieldset>
+            </form>
+            <div class="resultado">
+                <img id="img" alt="">
+            </div>
+        </div> 
+    </div>
+    <script src="./script.js" defer></script>
+</body>
+</html>
